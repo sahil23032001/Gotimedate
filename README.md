@@ -7,7 +7,7 @@ I have attached the Word file in the Repo itself
 The repo Contains Result.json 
 
 
-3)deployed a date and time go using k3s and docker
+3) Deployed a date and time go using k3s and docker
 The repo contains the kubenetes deployment + service file 
 The docker file used for building the docker image 
 The golang Code to deploy the same  
