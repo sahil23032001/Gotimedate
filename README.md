@@ -5,9 +5,10 @@ I have attached the Word file in the Repo itself
 
 2) Result after Kubernetes Security Scan
 The repo Contains Result.json 
-
+https://github.com/sahil23032001/Gotimedate/blob/main/Result.json
 
 3) Deployed a date and time go using k3s and docker
+https://github.com/sahil23032001/Gotimedate
 The repo contains the kubenetes deployment + service file 
 The docker file used for building the docker image 
 The golang Code to deploy the same  
