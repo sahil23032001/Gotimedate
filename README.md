@@ -7,7 +7,7 @@ Build a security product feature that scans container images for known vulnerabi
 
 ✅ Deliverables
 Product Requirements Document:
-📝 View PRD Document :https://docs.google.com/document/d/199bhz0SaFRzWTQn7i1RsoO1E3TL3cXdU/edit?usp=sharing&ouid=113594198305972731208&rtpof=true&sd=true
+📝 View PRD Document https://docs.google.com/document/d/199bhz0SaFRzWTQn7i1RsoO1E3TL3cXdU/edit?usp=sharing&ouid=113594198305972731208&rtpof=true&sd=true
 
 Low-Fidelity Wireframes:
 Included in the PRD document.
@@ -18,7 +18,7 @@ Scan a local Kubernetes cluster using a security tool like Kubescape and share t
 
 ✅ Deliverables
 Result.json contains findings from the K8s security scan.
-📄 View JSON Output :https://github.com/sahil23032001/Gotimedate/blob/main/Result.json
+📄 View JSON Output https://github.com/sahil23032001/Gotimedate/blob/main/Result.json
 
 ⏱️ Problem Statement 3: Deploying Go App via Docker & Kubernetes
 🔧 Step-by-Step Implementation
@@ -50,5 +50,6 @@ service.yaml: K8s Service spec.
 datetimeapp.tar: Prebuilt image archive for local loading.
 
 🌐 Sample Output
+
 ![image](https://github.com/user-attachments/assets/bb142e33-ee6d-4162-aab5-9e7b203f62df)
 
