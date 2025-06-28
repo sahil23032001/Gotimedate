@@ -7,20 +7,10 @@ Build a security product feature that scans container images for known vulnerabi
 
 ✅ Deliverables
 Product Requirements Document:
-📝 View PRD Document
+📝 View PRD Document :https://docs.google.com/document/d/199bhz0SaFRzWTQn7i1RsoO1E3TL3cXdU/edit?usp=sharing&ouid=113594198305972731208&rtpof=true&sd=true
 
 Low-Fidelity Wireframes:
 Included in the PRD document.
-
-Bonus – Dev Action Items:
-
-Integrate with vulnerability scanning tools (e.g., Trivy, Clair).
-
-Build an API to fetch image scan data.
-
-Create filters for severity, fix status, etc.
-
-Build an alerting engine for high/critical CVEs.
 
 🛡️ Problem Statement 2: Kubernetes Security Scan
 🔍 Objective
@@ -28,7 +18,7 @@ Scan a local Kubernetes cluster using a security tool like Kubescape and share t
 
 ✅ Deliverables
 Result.json contains findings from the K8s security scan.
-📄 View JSON Output
+📄 View JSON Output :https://github.com/sahil23032001/Gotimedate/blob/main/Result.json
 
 ⏱️ Problem Statement 3: Deploying Go App via Docker & Kubernetes
 🔧 Step-by-Step Implementation
@@ -38,7 +28,7 @@ A simple Go program that shows the current date and time.
 2️⃣ Dockerize the App
 Dockerfile is included to build the container image.
 
-3️⃣ Push Image to Docker Hub
+3️⃣ Push Build the Image 
 Docker image built and used locally via tar (due to private registry constraints).
 
 4️⃣ Kubernetes Deployment
@@ -60,5 +50,5 @@ service.yaml: K8s Service spec.
 datetimeapp.tar: Prebuilt image archive for local loading.
 
 🌐 Sample Output
-
+![image](https://github.com/user-attachments/assets/bb142e33-ee6d-4162-aab5-9e7b203f62df)
 
