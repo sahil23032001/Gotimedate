@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: datetime-service
 spec:
+  type: NodePort
   selector:
     app: datetime
-  type: NodePort
   ports:
-  - port: 80
-    targetPort: 8080
-    nodePort: 30080
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+      nodePort: 30080
