@@ -1,18 +1,64 @@
-Hi this is Sahil Have Completed all the three assignments , 
-1) First Assignment - The product prd 
-# https://docs.google.com/document/d/199bhz0SaFRzWTQn7i1RsoO1E3TL3cXdU/edit?usp=sharing&ouid=113594198305972731208&rtpof=true&sd=true
-I have attached the Word file in the Repo itself 
+🚀 Product Manager Technical Assignment – Sahil Jain
+Welcome to the submission of my Product Manager technical assignment. This repository contains the implementation and deliverables for all three problem statements:
 
-2) Result after Kubernetes Security Scan
-# The repo Contains Result.json 
-# https://github.com/sahil23032001/Gotimedate/blob/main/Result.json
+📌 Problem Statement 1: Product Requirements & Wireframes for Container Security
+🎯 Objective
+Build a security product feature that scans container images for known vulnerabilities and allows users to assess and take action based on severity.
 
-3) Deployed a date and time go using k3s and docker
-# https://github.com/sahil23032001/Gotimedate
-# The repo contains the kubenetes deployment + service file 
-# The docker file used for building the docker image 
-# The golang Code to deploy the same  
-# Output sample for the same 
-![image](https://github.com/user-attachments/assets/bb142e33-ee6d-4162-aab5-9e7b203f62df)
+✅ Deliverables
+Product Requirements Document:
+📝 View PRD Document
+
+Low-Fidelity Wireframes:
+Included in the PRD document.
+
+Bonus – Dev Action Items:
+
+Integrate with vulnerability scanning tools (e.g., Trivy, Clair).
+
+Build an API to fetch image scan data.
+
+Create filters for severity, fix status, etc.
+
+Build an alerting engine for high/critical CVEs.
+
+🛡️ Problem Statement 2: Kubernetes Security Scan
+🔍 Objective
+Scan a local Kubernetes cluster using a security tool like Kubescape and share the vulnerability report.
+
+✅ Deliverables
+Result.json contains findings from the K8s security scan.
+📄 View JSON Output
+
+⏱️ Problem Statement 3: Deploying Go App via Docker & Kubernetes
+🔧 Step-by-Step Implementation
+1️⃣ GoLang App – Date & Time
+A simple Go program that shows the current date and time.
+
+2️⃣ Dockerize the App
+Dockerfile is included to build the container image.
+
+3️⃣ Push Image to Docker Hub
+Docker image built and used locally via tar (due to private registry constraints).
+
+4️⃣ Kubernetes Deployment
+Used k3s for lightweight local deployment.
+
+Deployed using declarative YAML with 2 replicas.
+
+Exposed via Kubernetes Service.
+
+✅ Files Included
+main.go: Go source code.
+
+Dockerfile: For building the image.
+
+deployment.yaml: K8s Deployment spec.
+
+service.yaml: K8s Service spec.
+
+datetimeapp.tar: Prebuilt image archive for local loading.
+
+🌐 Sample Output
 
 
